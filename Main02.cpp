@@ -36,10 +36,12 @@ int main()
    //compute risk-neutral probability
    cout << "q = " << (R-D)/(U-D) << endl;
 
-   //compute stock price at node n=3,i=2
-   int n=3; int i=2;
+   int n, i;
+   cout << "Enter n: "; cin >> n;
+   cout << "Enter i: "; cin >> i;
    cout << "n = " << n << endl;
    cout << "i = " << i << endl;
+   //compute stock price at node n, i
    cout << "S(n,i) = " << S0*pow(1+U,i)*pow(1+D,n-i)
                        << endl;
 

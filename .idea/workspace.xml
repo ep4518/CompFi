@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5a1d0942-b2e9-454c-a9a5-c2ae556195f9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BSEq.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BSEq.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BSEqLCP.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BSModel01.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BSModel01.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BSModel02.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BSModel02.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinLattice01.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinLattice02.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinModel01.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinModel01.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinModel02.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BinModel02.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CNMethod.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DoubDigitOpt.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/DoubDigitOpt.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EurCall.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/EurCall.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe1-10_DigitalPut.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe1-10_DigitalPut.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe1-10_Main07.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe1-11_Main07.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe1-11_Options03.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe1-11_Options03.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe1-1_Main02.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe1-2_Main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe1-3_Options01.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe1-4_Main05.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe1-4_Options01.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe1-5_Options01.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe1-6_Main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe1-7_Main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe1-8_BinModel01.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe1-8_BinModel01.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe1-8_Main04.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe1-9_Main07.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe1-9_Options03.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe1-9_Options03.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe2-1_Main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe2-2_Main10.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe2-2_Options06.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe2-2_Options06.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe2-3_Main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe2-4_Main11.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe2-4_SpreadOptions.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe2-4_SpreadOptions.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe3-1_Main14.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe3-1_Options09.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe3-1_Options09.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe3-2_BSModel.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe3-2_BinModel02.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe3-2_BinModel02.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe3-2_Main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe3-2_Options09.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe3-2_Options09.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe3-3_Main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe4-1_Main17.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe4-1_Solver03.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe4-2_Main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe4-3_Main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe4-4_Main14.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe4-4_Options09.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe4-4_Options09.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-10_EurBasket.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-10_EurBasket.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-10_Main23.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-11_EurBasket.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-11_EurBasket.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-11_Main23.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-11_PathDepOption05.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-11_PathDepOption05.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-11_SumOfCalls.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-11_SumOfCalls.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-1_Main19.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-1_PathDepOption01.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-1_PathDepOption01.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-2_Main21.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-2_PathDepOption03.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-2_PathDepOption03.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-3_Main21.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-3_PathDepOption03.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-3_PathDepOption03.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-4_Main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-5_EurCall.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-5_EurCall.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-5_GmtrAsianCall.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-5_GmtrAsianCall.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-5_Main22.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-5_PathDepOption04.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-5_PathDepOption04.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-6_BarrierCall.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-6_BarrierCall.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-6_EurCall.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-6_EurCall.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-6_Main22.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-6_PathDepOption04.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-6_PathDepOption04.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-7_ContGmtrAsianCall.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-7_ContGmtrAsianCall.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-7_Main22.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-8_Main23.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-8_PathDepOption05.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-8_PathDepOption05.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-9_Main23.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-9_PathDepOption05.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe5-9_PathDepOption05.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe6-2_CallOption.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe6-2_CallOption.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe6-2_Main24.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe6-3_Main24.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe6-4_CallOption.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe6-4_CallOption.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe6-4_Main24.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe6-5_ImplicitMethod.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe6-5_Main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe6-6_Main25.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe6-6_WeightImplicit.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe6-7_FiniteDomainEq.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe6-7_FiniteDomainEq.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe6-7_Main26.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe6-8_HeatEqLCP.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe6-8_Main27.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Exe6-9_Main27.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExplicitLCP.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExplicitLCP.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExplicitMethod.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ExplicitMethod.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDLCP.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDMethod.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FDMethod.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GmtrAsianCall.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GmtrAsianCall.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HeatEq.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HeatEq.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ImplicitScheme.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ImplicitScheme.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LCP.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main01.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main02.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main03.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main04.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main05.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main06.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main07.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main08.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main09.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main10.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main11.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main12.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main13.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main14.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main15.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main16.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main17.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main18.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main19.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main20.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main21.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main22.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main23.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main24.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main25.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main26.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Main27.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matrix.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Matrix.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Option.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Option.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Options01.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Options01.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Options02.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Options02.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Options03.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Options03.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Options04.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Options04.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Options05.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Options05.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Options06.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Options06.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Options07.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Options07.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Options08.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Options08.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Options09.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Options09.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ParabPDE.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PathDepOption01.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PathDepOption01.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PathDepOption02.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PathDepOption02.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PathDepOption03.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PathDepOption03.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PathDepOption04.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PathDepOption04.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PathDepOption05.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PathDepOption05.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solver01.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solver02.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solver03.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tutorial5.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a.out" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tutorial5.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2fE7nwPgRECLQT7AZTJEDNScAxc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/Edward/Library/CloudStorage/OneDrive-ImperialCollegeLondon/Documents/Computational Finance C++/Code",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "structure.view.defaults.are.configured": "true",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a1d0942-b2e9-454c-a9a5-c2ae556195f9" name="Changes" comment="" />
+      <created>1713354553641</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713354553641</updated>
+      <workItem from="1713354554641" duration="1706000" />
+      <workItem from="1713364859386" duration="6338000" />
+      <workItem from="1713372272760" duration="2000" />
+      <workItem from="1713372819864" duration="10858000" />
+      <workItem from="1713434471171" duration="3853000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

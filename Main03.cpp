@@ -48,6 +48,18 @@ int GetInputData(double& S0,
    return 0;
 }
 
+void interchange(double& a, double& b){
+    double tmp = a;
+    a = b;
+    b = tmp;
+}
+
+void interchangeptr(double *a, double *b) {
+    double tmp = *a;
+    *a = *b;
+    *b = tmp;
+}
+
 int main()
 {
    double S0,U,D,R;
@@ -62,6 +74,16 @@ int main()
    cout << "n = " << n << endl;
    cout << "i = " << i << endl;
    cout << "S(n,i) = " << S(S0,U,D,n,i) << endl;
+
+   double x = 1;
+   double y = 2;
+
+//   double *xptr = &x;
+//   double *yptr = &y;
+//   interchangeptr(xptr,yptr);
+
+   cout << "This is x: " << x << endl;
+   cout << "This is y: " << y << endl;
 
    return 0;
 }

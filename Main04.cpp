@@ -7,7 +7,7 @@ int main()
 {
    double S0,U,D,R;
 
-   if (GetInputData(S0,U,D,R)==1) return 1;
+   if (GetInputData(&S0,&U,&D,&R)==1) return 1;
 
    //compute risk-neutral probability
    cout << "q = " << RiskNeutProb(U,D,R) << endl;
