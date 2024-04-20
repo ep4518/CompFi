@@ -14,7 +14,7 @@ int main()
 
    double a = 1.0;
    double b = 2.0;
-   DefInt MyInt(a,b,f);
+   DefIntFunc MyInt(a,b);
    int N = 100;
 
    cout << "By Trapezoidal Estimation: \n" << MyInt.ByTrapezoid(N) << endl;
