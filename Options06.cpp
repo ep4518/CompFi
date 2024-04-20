@@ -56,3 +56,49 @@ double Put::Payoff(double z)
    if (z<K) return K-z;
    return 0.0;
 }
+
+int BullSpread::GetInputData()
+{
+   cout << "Enter Bull Spread option data:" << endl;
+   int N;
+   cout << "Enter steps to expiry N: "; cin >> N;
+   SetN(N);
+   cout << "Enter strike price K1:    "; cin >> K1;
+   cout << "Enter strike price K2:    "; cin >> K2;
+   cout << endl;
+   if (!(K1 < K2)) {
+      cout << "K1 must be less than K2" << endl;
+      return -1;
+   }
+   return 0;
+}
+
+double BullSpread::Payoff(double z)
+{
+   if (z<=K1) return 0.0;
+   else if (z > K1 && z < K2) return (z - K1);
+   else return (K2 - K1);
+}
+
+int BearSpread::GetInputData()
+{
+   cout << "Enter Bear Spread option data:" << endl;
+   int N;
+   cout << "Enter steps to expiry N: "; cin >> N;
+   SetN(N);
+   cout << "Enter strike price K1:    "; cin >> K1;
+   cout << "Enter strike price K2:    "; cin >> K2;
+   cout << endl;
+   if (!(K1 < K2)) {
+      cout << "K1 must be less than K2" << endl;
+      return -1;
+   }
+   return 0;
+}
+
+double BearSpread::Payoff(double z)
+{
+   if (z<=K1) return (K2 - K1);
+   else if (z > K1 && z < K2) return (K2 - z);
+   else return 0;
+}

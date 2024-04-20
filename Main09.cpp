@@ -15,7 +15,7 @@ int main()
    double a = 1.0;
    double b = 2.0;
    DefInt MyInt(a,b,f);
-   int N = 10;
+   int N = 100;
 
    cout << "By Trapezoidal Estimation: \n" << MyInt.ByTrapezoid(N) << endl;
    cout << "By Simpson Estimation: \n" << MyInt.BySimpson(N) << endl;

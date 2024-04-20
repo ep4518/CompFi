@@ -22,5 +22,17 @@ int main()
         << Option2.PriceByCRR(Model)
         << endl << endl;
 
+     BearSpread Option3;
+     Option3.GetInputData();
+     cout << "European BullSpread option price = "
+          << Option3.PriceByCRR(Model)
+          << endl << endl;
+
+     BullSpread Option4;
+     Option4.GetInputData();
+     cout << "European BearSpread option price = "
+          << Option4.PriceByCRR(Model)
+          << endl << endl;
+
    return 0;
 }
