@@ -100,5 +100,52 @@ double BearSpread::Payoff(double z)
 {
    if (z<=K1) return (K2 - K1);
    else if (z > K1 && z < K2) return (K2 - z);
-   else return 0;
+   else return 0.0;
+}
+
+int Strangle::GetInputData()
+{
+   cout << "Enter Strangle option data:" << endl;
+   int N;
+   cout << "Enter steps to expiry N: "; cin >> N;
+   SetN(N);
+   cout << "Enter strike price K1:    "; cin >> K1;
+   cout << "Enter strike price K2:    "; cin >> K2;
+   cout << endl;
+   if (!(K1 < K2)) {
+      cout << "K1 must be less than K2" << endl;
+      return -1;
+   }
+   return 0;
+}
+
+double Strangle::Payoff(double z)
+{
+   if (z<=K1) return (K1 - z);
+   else if (z > K1 && z < K2) return (0.0);
+   else return (z - K2);
+}
+
+int Butterfly::GetInputData()
+{
+   cout << "Enter Butterfly option data:" << endl;
+   int N;
+   cout << "Enter steps to expiry N: "; cin >> N;
+   SetN(N);
+   cout << "Enter strike price K1:    "; cin >> K1;
+   cout << "Enter strike price K2:    "; cin >> K2;
+   cout << endl;
+   if (!(K1 < K2)) {
+      cout << "K1 must be less than K2" << endl;
+      return -1;
+   }
+   return 0;
+}
+
+double Butterfly::Payoff(double z)
+{
+   double midp = (K1 + K2) / 2;
+   if (K1 < z && z <= midp) return (z - K1);
+   else if (midp < z && z <= K2) return (K2 - z);
+   else return 0.0;
 }

@@ -63,4 +63,28 @@ class BearSpread: public EurOption
       double Payoff(double z);
 };
 
+class Strangle: public EurOption
+{
+   private:
+      double K1;
+      double K2;
+   public:
+      void SetK1(double K1_){K1=K1_;}
+      void SetK2(double K2_){K2=K2_;}
+      int GetInputData();
+      double Payoff(double z);
+};
+
+class Butterfly: public EurOption
+{
+   private:
+      double K1;
+      double K2;
+   public:
+      void SetK1(double K1_){K1=K1_;}
+      void SetK2(double K2_){K2=K2_;}
+      int GetInputData();
+      double Payoff(double z);
+};
+
 #endif

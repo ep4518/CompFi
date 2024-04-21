@@ -29,5 +29,17 @@ int main()
         << Option3.PriceByCRR(Model)
         << endl << endl;
 
+   Strangle Option4;
+   Option4.GetInputData();
+   cout << "European double-digital option price = "
+        << Option4.PriceByCRR(Model)
+        << endl << endl;
+
+   Butterfly Option5;
+   Option5.GetInputData();
+   cout << "European double-digital option price = "
+        << Option5.PriceByCRR(Model)
+        << endl << endl;
+
    return 0;
 }
