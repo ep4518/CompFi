@@ -27,7 +27,11 @@ class Call: public EurOption
    private:
       double K; //strike price
    public:
-      Call(){SetPayoff(CallPayoff);}
+      Call(){
+          cout << "Constructing Option" << endl;
+          SetPayoff(CallPayoff);
+            // cannot GetK() as k is unintialised
+      }
       double GetK(){return K;}
       int GetInputData();
 };

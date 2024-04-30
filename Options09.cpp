@@ -5,24 +5,29 @@
 #include <cmath>
 using namespace std;
 
-double EurOption::PriceByCRR(BinModel Model)
+double EurOption::PriceByCRR(BinModel Model,
+                             BinLattice<double>& PriceTree,
+                             BinLattice<bool>& StoppingTree)
 {
    double q=Model.RiskNeutProb();
    int N=GetN();
-   vector<double> Price(N+1);
+   PriceTree.SetN(N);
+   StoppingTree.SetN(N);
    for (int i=0; i<=N; i++)
    {
-      Price[i]=Payoff(Model.S(N,i));
+      PriceTree.SetNode(N,i,Payoff(Model.S(N,i)));
+      StoppingTree.SetNode(N,i,1);
    }
    for (int n=N-1; n>=0; n--)
    {
       for (int i=0; i<=n; i++)
       {
-         Price[i]=(q*Price[i+1]+(1-q)*Price[i])
-            /(1+Model.GetR());
+         PriceTree.SetNode(n,i,(q*PriceTree.GetNode(n+1,i+1)+(1-q)*PriceTree.GetNode(n+1,i))
+            /(1+Model.GetR()));
+         StoppingTree.SetNode(n,i,1);
       }
    }
-   return Price[0];
+   return PriceTree.GetNode(0,0);
 }
 
 double AmOption::PriceBySnell(BinModel Model,

@@ -37,7 +37,7 @@ class Put: public EurOption
       void SetK(double K_){K=K_;}
       int GetInputData();
       double Payoff(double z);
-};
+}
 
 class BullSpread: public EurOption
 {
