@@ -10,6 +10,10 @@ class BinModel
       double R;
 
    public:
+      BinModel(double S0_, double U_, double D_, double R_) {
+         S0 = S0_; U=U_; D=D_; R=R_;
+         // CheckInputData();
+      };
       //computing risk-neutral probability
       double RiskNeutProb();
 
@@ -18,6 +22,8 @@ class BinModel
 
       //inputting, displaying and checking model data
       int GetInputData();
+
+      int CheckInputData();
 
       double GetR();
 };

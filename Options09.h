@@ -39,6 +39,7 @@ class Call: public EurOption, public AmOption
       double K; //strike price
 
    public:
+      Call(int N_, double K_){SetN(N_); K=K_;}
       void SetK(double K_){K=K_;}
       int GetInputData();
       double Payoff(double z);
@@ -50,6 +51,7 @@ class Put: public EurOption, public AmOption
       double K; //strike price
 
    public:
+      Put(int N_, double K_){SetN(N_); K=K_;}
       void SetK(double K_){K=K_;}
       int GetInputData();
       double Payoff(double z);

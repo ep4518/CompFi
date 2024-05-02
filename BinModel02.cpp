@@ -22,6 +22,10 @@ int BinModel::GetInputData()
    cout << "Enter R:  "; cin >> R;
    cout << endl;
 
+   return CheckInputData();
+}
+
+int BinModel::CheckInputData() {
    //making sure that 0<S0, -1<D<U, -1<R
    if (S0<=0.0 || U<=-1.0 || D<=-1.0 || U<=D
                                      || R<=-1.0)
