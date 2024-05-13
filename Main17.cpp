@@ -25,17 +25,17 @@ int main()
    double LEnd=0.0, REnd=2.0;
    double Tgt=0.0;
    cout << "Root of F1 by bisect: "
-        << SolveByBisect(&MyF1,Tgt,LEnd,REnd,Acc)
+        << SolveByBisect(MyF1,Tgt,LEnd,REnd,Acc)
         << endl;
    cout << "Root of F2 by bisect: "
-        << SolveByBisect(&MyF2,Tgt,LEnd,REnd,Acc)
+        << SolveByBisect(MyF2,Tgt,LEnd,REnd,Acc)
         << endl;
    double Guess=1.0;
    cout << "Root of F1 by Newton-Raphson: "
-        << SolveByNR(&MyF1,Tgt,Guess,Acc)
+        << SolveByNR(MyF1,Tgt,Guess,Acc)
         << endl;
    cout << "Root of F2 by Newton-Raphson: "
-        << SolveByNR(&MyF2,Tgt,Guess,Acc)
+        << SolveByNR(MyF2,Tgt,Guess,Acc)
         << endl;
    return 0;
 }
