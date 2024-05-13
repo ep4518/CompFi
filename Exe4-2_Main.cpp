@@ -59,11 +59,11 @@ int main()
 
    double LEnd=0.0;
    double REnd=1.0;
-   y=SolveByBisect(&MyBond,P,LEnd,REnd,Acc);
+   y=SolveByBisect(MyBond,P,LEnd,REnd,Acc);
    cout << "Yield by bisection method: " << y << endl;
 
    double Guess=0.2;
-   y=SolveByNR(&MyBond,P,Guess,Acc);
+   y=SolveByNR(MyBond,P,Guess,Acc);
    cout << "Yield by Newton-Raphson method: " << y << endl;
 
    return 0;
